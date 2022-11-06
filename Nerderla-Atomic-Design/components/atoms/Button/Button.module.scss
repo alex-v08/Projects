@@ -1,0 +1,65 @@
+/* stylelint-disable */
+.button {
+    background-color: transparent;
+    border: unset;
+    border-radius: 40px;
+    box-shadow: 0 16px 16px 4px rgba(0, 0, 0, 0.12);
+    color: color(white);
+    font-size: 18px;
+    line-height: 24px;
+    min-width: 288px;
+    padding: 16px;
+
+    &.primary {
+        background-color: color(razzmatazz);
+
+        &:hover {
+            background-color: darken(color(razzmatazz), 8%);
+        }
+    }
+
+    &.secondary {
+        background-color: color(eerie);
+        border: 1px solid color(razzmatazz);
+
+        &:hover {
+            background-color: lighten(color(eerie), 6%);
+        }
+    }
+
+    &.secondary-white {
+        background-color: color(eerie);
+        border: 1px solid color(white);
+
+        &:hover {
+            background-color: lighten(color(eerie), 6%);
+        }
+    }
+
+    &.secondary-gradient {
+        background-color: #1d1d1d;
+        position: relative;
+
+        &:hover {
+            background: rgba(44, 44, 44, 0.3);
+        }
+
+        &:before {
+            background: linear-gradient(
+                -45deg,
+                #0feffd 30%,
+                #ff00f5 100%,
+                #0feffd 22%
+            );
+            border-radius: 40px;
+            content: '';
+            display: block;
+            height: calc(100% + 2px);
+            left: -1px;
+            position: absolute;
+            top: -1px;
+            width: calc(100% + 2px);
+            z-index: -1;
+        }
+    }
+}

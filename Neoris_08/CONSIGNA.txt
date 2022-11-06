@@ -1,0 +1,8 @@
+1. Categorías disponibles
+2. Productos de una categoría
+3. Mostrar los datos del producto seleccionado.
+4. (Medalla plata) Seleccionado un producto, mostrar las promociones vigentes, detallando en nombre de la promo, el descuento, y el valor en que quedará el producto.
+4.5. Ingresar el idPromo seleccionado (o un valor negativo si no quiere ninguna).
+5. Ingresar una cantidad.
+6. Ingresar el idCliente.
+7. Ingresar el idEmpleado.

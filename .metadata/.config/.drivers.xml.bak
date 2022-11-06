@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drivers>
+	<provider id="generic">
+		<driver id="hsqldb_server" category="HSQLDB" categories="sql" name="HSQL Server" class="org.hsqldb.jdbcDriver" url="jdbc:hsqldb:hsql://{host}[:{port}]/[{database}]" port="9001" description="HyperSQL DataBase - Server Mode" custom="false">
+			<library type="jar" path="maven:/org.hsqldb:hsqldb:RELEASE" custom="false">
+				<file id="org.hsqldb:hsqldb" version="2.7.1" path="${home}/drivers/maven/maven-central/org.hsqldb/hsqldb-2.7.1.jar"/>
+			</library>
+		</driver>
+	</provider>
+</drivers>

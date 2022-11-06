@@ -1,0 +1,25 @@
+{
+    "extends": [
+        "stylelint-config-sass-guidelines",
+        "stylelint-config-css-modules"
+    ],
+    "rules": {
+        "indentation": 4,
+        "color-named": null,
+        "at-rule-no-unknown": [
+            true,
+            {
+                "ignoreAtRules": [
+                    "function",
+                    "if",
+                    "each",
+                    "include",
+                    "mixin",
+                    "extend",
+                    "for"
+                ]
+            }
+        ],
+        "max-nesting-depth": null
+    }
+}

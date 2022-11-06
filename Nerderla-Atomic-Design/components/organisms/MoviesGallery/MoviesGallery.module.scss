@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-gap: 20px;
+    grid-template-rows: 1fr;
+    overflow-x: auto;
+    width: 100%;
+
+    > * {
+        grid-column: auto;
+        grid-row: 1;
+    }
+}

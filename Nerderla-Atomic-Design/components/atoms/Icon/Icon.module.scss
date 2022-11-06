@@ -1,0 +1,89 @@
+.icon {
+    display: block;
+    height: 24px;
+    width: 24px;
+
+    &.account {
+        background: url('./assets/Account.svg') center no-repeat;
+    }
+
+    &.calendar {
+        background: url('./assets/Calendar.svg') center no-repeat;
+    }
+
+    &.chevron-down {
+        background: url('./assets/Chevron-Down.svg') center no-repeat;
+    }
+
+    &.chevron-left {
+        background: url('./assets/Chevron-Left.svg') center no-repeat;
+    }
+
+    &.chevron-right {
+        background: url('./assets/Chevron-Right.svg') center no-repeat;
+    }
+
+    &.chevron-up {
+        background: url('./assets/Chevron-Up.svg') center no-repeat;
+    }
+
+    &.clock {
+        background: url('./assets/Clock.svg') center no-repeat;
+    }
+
+    &.close {
+        background: url('./assets/Close.svg') center no-repeat;
+    }
+
+    &.expand {
+        background: url('./assets/Expand.svg') center no-repeat;
+    }
+
+    &.gallery {
+        background: url('./assets/Gallery.svg') center no-repeat;
+    }
+
+    &.home {
+        background: url('./assets/Home.svg') center no-repeat;
+    }
+
+    &.menu {
+        background: url('./assets/Menu.svg') center no-repeat;
+    }
+
+    &.minus {
+        background: url('./assets/Minus.svg') center no-repeat;
+    }
+
+    &.movie {
+        background: url('./assets/Movie.svg') center no-repeat;
+    }
+
+    &.pause {
+        background: url('./assets/Pause.svg') center no-repeat;
+    }
+
+    &.play {
+        background: url('./assets/Play.svg') center no-repeat;
+    }
+
+    &.search {
+        background: url('./assets/Search.svg') center no-repeat;
+    }
+
+    &.settings {
+        background: url('./assets/Settings.svg') center no-repeat;
+    }
+
+    &.star-fill {
+        background: url('./assets/Star-Fill.svg') center no-repeat;
+    }
+
+    &.star-stroke {
+        background: url('./assets/Star-Stroke.svg') center no-repeat;
+    }
+
+    &.tv {
+        background: url('./assets/TV.svg') center no-repeat;
+    }
+}

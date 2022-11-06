@@ -1,0 +1,10 @@
+[Server@24331ab6]: Initiating startup sequence...
+[Server@24331ab6]: Server socket opened successfully in 1 ms.
+[Server@24331ab6]: Database [index=0, id=0, db=file:/home/alexv/Projects/.metadata/.plugins/net.holmconsulting.database.server.plugin/databaseFileStore, alias=mydatabase] opened sucessfully in 147 ms.
+[Server@24331ab6]: Startup sequence completed in 149 ms.
+[Server@24331ab6]: 2022-11-02 15:43:22.383 HSQLDB server 2.2.5 is online on port 9001
+[Server@24331ab6]: To close normally, connect and execute SHUTDOWN SQL
+[Server@24331ab6]: From command line, use [Ctrl]+[C] to abort abruptly
+[Server@24331ab6]: Initiating shutdown sequence...
+[Server@24331ab6]: Shutdown sequence completed in 0 ms.
+[Server@24331ab6]: 2022-11-02 15:44:30.459 SHUTDOWN : System.exit() was not called

@@ -1,0 +1,5 @@
+
+Nov 02, 2022 10:40:25.133 NEW SESSION
+Nov 02, 2022 10:40:25.133 which: no mozilla in (/home/alexv/anaconda3/bin:/home/alexv/anaconda3/condabin:/home/alexv/.local/bin:/home/alexv/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/opt/rocm/bin:/opt/rocm/rocprofiler/bin:/opt/rocm/opencl/bin:/opt/rocm/hip/bin)
+Nov 02, 2022 10:40:25.246 which: no netscape in (/home/alexv/anaconda3/bin:/home/alexv/anaconda3/condabin:/home/alexv/.local/bin:/home/alexv/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/opt/rocm/bin:/opt/rocm/rocprofiler/bin:/opt/rocm/opencl/bin:/opt/rocm/hip/bin)
+Nov 02, 2022 10:40:25.374 /usr/bin/firefox

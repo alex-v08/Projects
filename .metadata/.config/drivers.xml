@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drivers>
+	<provider id="generic">
+		<driver id="hsqldb_server" category="HSQLDB" categories="sql" name="HSQL Server" class="org.hsqldb.jdbcDriver" url="jdbc:hsqldb:hsql://{host}[:{port}]/[{database}]" port="9001" description="HyperSQL DataBase - Server Mode" custom="false">
+			<library type="jar" path="maven:/org.hsqldb:hsqldb:RELEASE" custom="false">
+				<file id="org.hsqldb:hsqldb" version="2.7.1" path="${home}/drivers/maven/maven-central/org.hsqldb/hsqldb-2.7.1.jar"/>
+			</library>
+			<parameter name="read-only-data" value="false"/>
+			<parameter name="supports-indexes" value="true"/>
+			<parameter name="all-objects-pattern" value="%"/>
+			<parameter name="quote-reserved-words" value="true"/>
+			<parameter name="omit-schema" value="false"/>
+			<parameter name="supports-table-constraints" value="true"/>
+			<parameter name="schema-filters-enabled" value="false"/>
+			<parameter name="supports-delimiter-in-views" value="true"/>
+			<parameter name="supports-struct-cache" value="true"/>
+			<parameter name="supports-truncate" value="true"/>
+			<parameter name="read-only-meta-data" value="false"/>
+			<parameter name="omit-type-cache" value="false"/>
+			<parameter name="split-procedures-and-functions" value="false"/>
+			<parameter name="supports-stored-code" value="true"/>
+			<parameter name="supports-references" value="true"/>
+			<parameter name="supports-multi-insert" value="false"/>
+			<parameter name="omit-catalog-name" value="false"/>
+			<parameter name="supports-catalog-selection" value="true"/>
+			<parameter name="omit-single-catalog" value="false"/>
+			<parameter name="ddl-drop-column-brackets" value="false"/>
+			<parameter name="omit-single-schema" value="false"/>
+			<parameter name="omit-catalog" value="false"/>
+			<parameter name="supports-views" value="true"/>
+			<parameter name="script-delimiter" value=";"/>
+			<parameter name="legacy-sql-dialect" value="false"/>
+			<parameter name="script-delimiter-after-query" value="false"/>
+			<parameter name="use-search-string-escape" value="false"/>
+			<parameter name="supports-multiple-results" value="false"/>
+			<parameter name="script-delimiter-after-block" value="false"/>
+			<parameter name="supports-schema-selection" value="true"/>
+			<parameter name="alter-table-add-column" value="false"/>
+			<parameter name="ddl-drop-column-short" value="false"/>
+			<parameter name="supports-select-count" value="true"/>
+		</driver>
+	</provider>
+</drivers>

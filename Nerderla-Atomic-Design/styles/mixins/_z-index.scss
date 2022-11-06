@@ -1,0 +1,13 @@
+/* stylelint-disable */
+$z-index-values: (
+    nav: 999,
+);
+
+@function z-index($key) {
+    @if map-has-key($z-index-values, $key) {
+        @return map-get($z-index-values, $key);
+    }
+
+    @warn "Unknown `#{$key}` in $z-index-values.";
+    @return null;
+}
