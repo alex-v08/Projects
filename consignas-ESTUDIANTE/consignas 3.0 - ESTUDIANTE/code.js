@@ -25,7 +25,6 @@ const listado = [{
 
 const profileBtn = document.querySelector("#completar-perfil");
 const materiasBtn = document.querySelector("#obtener-materias");
-const verMasBtn = document.querySelector("#ver-mas");
 const cambiarTema = document.querySelector('#cambiar-tema');
 
 profileBtn.addEventListener("click", renderizarDatosUsuario);
@@ -34,7 +33,7 @@ cambiarTema.addEventListener("click", alternarColorTema);
 /* --------------------------- NO TOCAR HASTA ACÁ --------------------------- */
 
 function obtenerDatosDelUsuario() {
-
+  /* --------------- PUNTO 1: Escribe tu codigo a partir de aqui --------------- */
   const anioActual = 2022;
 
   const nombre = prompt("Ingrese su nombre");
@@ -47,7 +46,7 @@ function obtenerDatosDelUsuario() {
 
     const ciudad = prompt("Ingrese su ciudad");
     const interesPorJs = confirm("¿Te interesa aprender Javascript?") ? "SI" : "NO";
-
+    ime
     datosPersona.nombre = nombre;
     datosPersona.edad = anioActual - anioNacimiento;
     datosPersona.ciudad = ciudad;
@@ -71,80 +70,41 @@ function renderizarDatosUsuario() {
   ciudad.innerHTML = datosPersona.ciudad;
   interesPorJs.innerHTML = datosPersona.interesPorJs;
 
-
-
 }
 
 
 function recorrerListadoYRenderizarTarjetas() {
   /* ------------------ PUNTO 3: Escribe tu codigo desde aqui ------------------ */
 
-  /*Desarrollar la función que recorra el listado y renderizar una especie de tarjeta con la
-información de cada materia. Prestar atención, cada una de las clases CSS son
-necesarias para conservar el diseño:
-1. Cada tarjeta contenedora deberá tener la clase 'caja'
-2. Dentro de cada contenedor se deberá incluir:
-a. una imagen con su correspondiente src y un alt que indique los
-lenguajes.
-b. un párrafo que tenga las clase ‘lenguajes’ y muestre los mismos.
-c. un párrafo que tenga las clase ‘bimestre’ y muestre el bimestre.
-3. Al volver a clickear el botón “Obtener materias”, no deberían volver a
-renderizarse las materias.
-➔ Tips
-◆ Cada ‘caja’ se debe inyectar dentro del contenedor que ya se encuentra
-en el archivo index.html con el id 'fila'.*/
-
   const contenedor = document.querySelector("#fila");
   contenedor.innerHTML = "";
+ 
+
+
+
   for (let i = 0; i < listado.length; i++) {
     contenedor.innerHTML += `
-    <div class="tarjeta caja">
-      <img src="${listado[i].imgUrl}" alt="imagen de ${listado[i].lenguajes}" />
-      <h3 class ="lenguajes">${listado[i].lenguajes}</h3>
-      <p class = "bimestre">${listado[i].bimestre}</p>git 
+    <div class ="caja" id="fila">
+      <img  src="${listado[i].imgUrl}" alt="imagen de ${listado[i].lenguajes}" />
+      <h4 class ="lenguajes">Lenguaje: ${listado[i].lenguajes}</h4>
+      <h4 class = "bimestre">Bimestre: ${listado[i].bimestre}</h4>
     </div>
     `;
   }
 
-recorrerListadoYRenderizarTarjetas();
-  
-
-
 }
 
 function alternarColorTema() {
-
-  const btnTema = document.querySelector('#cambiar-tema');
   /* --------------------- PUNTO 4: Escribe tu codigo aqui --------------------- */
+ 
+  const theme = document.querySelector('#sitio');
 
-  
-  btnTema.addEventListener("click", () => {
-
-    if (document.body.className != "dark") document.body.className=("dark")
-    else document.body.className = "";
-
-    console.log(document.body.className);
-
-    //REVISAR ESTA PARTE. FUNCIONA CON DOBLE CLICK 
-
-    
-  
-  });
-
-  
-
-
-
-
-  
-
+  theme.classList.toggle("dark");
 
 }
 
+/* --------------------- PUNTO 5: Escribe tu codigo aqui --------------------- */
 
-
-alternarColorTema();
-verMas();
 
 function verMas() {
 
@@ -160,7 +120,6 @@ function verMas() {
     }
   );
 
-  }
+}
 
-
-
+verMas();

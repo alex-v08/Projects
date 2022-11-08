@@ -229,6 +229,7 @@ window.addEventListener("load", function () {
 // 4- El parrafo agregado debe ser de color verde y decir: "Usuario oficial de Spotifront" <p><a>Usuario oficial de Spotifront</p></a>
 // 5- Por ultimo, si ese parrafo es clickeado, debe mostrar una alerta al usuario que diga: "Gracias por confiar en nosotros."
 
+<<<<<<< HEAD
 
 window.addEventListener("load", function () {
   setTimeout(() => {
@@ -256,3 +257,5 @@ window.addEventListener("load", function () {
     }
   }, 12000);
 });
+=======
+>>>>>>> 08cf59a9d7b71a9434fa21e8fa9a39d7e4457838
