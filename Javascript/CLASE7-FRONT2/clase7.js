@@ -99,5 +99,6 @@ renderizarAlbumes(albumesFamosos);
 // sea necesario ( es decir: 1 album, 1 favorito / 2 albumes, 3 favoritos )
 function mostrarDatosEnPerfil() {
   // desarrollar la función 👇
+  
 }
 mostrarDatosEnPerfil();

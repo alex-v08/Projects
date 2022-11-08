@@ -228,3 +228,4 @@ window.addEventListener("load", function () {
 // 3- Si el usuario cancela debemos agregar un parrafo dentro del div '#perfil'(sin eliminar nada dentro)
 // 4- El parrafo agregado debe ser de color verde y decir: "Usuario oficial de Spotifront" <p><a>Usuario oficial de Spotifront</p></a>
 // 5- Por ultimo, si ese parrafo es clickeado, debe mostrar una alerta al usuario que diga: "Gracias por confiar en nosotros."
+
