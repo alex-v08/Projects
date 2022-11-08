@@ -91,7 +91,27 @@ function alternarColorTema() {
 
   const btnTema = document.querySelector('#cambiar-tema');
   /* --------------------- PUNTO 4: Escribe tu codigo aqui --------------------- */
-  const body = document.querySelector("body");
+  // alternarColorTema del body en modo nocturno
+
+  const body = document.querySelector('body');
+
+  if (body.classList.contains('modo-nocturno')) {
+    body.classList.remove('modo-nocturno');
+    btnTema.innerText = 'Modo Nocturno';
+
+  } else {
+    body.classList.add('modo-nocturno');
+
+    btnTema.innerText = 'Modo Diurno';
+
+    
+
+
+  }
+
+}
+
+  
   
   btnTema.addEventListener("onclick", () => {
     body.classList.toggle("dark");

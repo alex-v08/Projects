@@ -228,3 +228,31 @@ window.addEventListener("load", function () {
 // 3- Si el usuario cancela debemos agregar un parrafo dentro del div '#perfil'(sin eliminar nada dentro)
 // 4- El parrafo agregado debe ser de color verde y decir: "Usuario oficial de Spotifront" <p><a>Usuario oficial de Spotifront</p></a>
 // 5- Por ultimo, si ese parrafo es clickeado, debe mostrar una alerta al usuario que diga: "Gracias por confiar en nosotros."
+
+
+window.addEventListener("load", function () {
+  setTimeout(() => {
+    const confirmacion = confirm("¿Desea conocer más música?");
+
+    // 2- Si el usuario confirma debemos abrir una nueva pestaña en -> https://open.spotify.com/
+    if (confirmacion) {
+      window.open("https://open.spotify.com/");
+    } else {
+      // 3- Si el usuario cancela debemos agregar un parrafo dentro del div '#perfil'(sin eliminar nada dentro)
+      const perfil = document.querySelector("#perfil");
+      const parrafo = document.createElement("p");
+
+      parrafo.innerHTML = "Usuario oficial de Spotifront";
+
+      // 4- El parrafo agregado debe ser de color verde y decir: "Usuario oficial de Spotifront" <p><a>Usuario oficial de Spotifront</p></a>
+      parrafo.style.color = "green";
+
+      // 5- Por ultimo, si ese parrafo es clickeado, debe mostrar una alerta al usuario que diga: "Gracias por confiar en nosotros."
+      parrafo.addEventListener("click", () => {
+        alert("Gracias por confiar en nosotros.");
+      });
+
+      perfil.appendChild(parrafo);
+    }
+  }, 12000);
+});
