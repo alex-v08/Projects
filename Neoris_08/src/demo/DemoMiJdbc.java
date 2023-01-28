@@ -1,5 +1,7 @@
 package demo;
 
+import demo.connect.MiJdbc;
+
 import java.util.List;
 
 public class DemoMiJdbc

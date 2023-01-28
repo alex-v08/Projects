@@ -1,4 +1,4 @@
-package com.example.opjpa;
+package com.example.opjpa.domain;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -6,7 +6,10 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Cliente {
-    private int idCliente;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer idCliente;
 
     public int getIdCliente() {
         return idCliente;
@@ -60,8 +63,7 @@ public class Cliente {
     }
 
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private int idUsuario;
     private String nombre;
     private String direccion;

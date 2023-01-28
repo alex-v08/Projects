@@ -54,8 +54,6 @@ function obtenerDatosDelUsuario() {
     datosPersona.interesPorJs = interesPorJs;
 }
 
-
-
 function renderizarDatosUsuario() {
   /* ------------------- NO TOCAR NI ELIMINAR ESTA FUNCION. ------------------- */
   const nombre = document.querySelector("#nombre");
@@ -74,7 +72,6 @@ function renderizarDatosUsuario() {
 
 
 }
-
 
 function recorrerListadoYRenderizarTarjetas() {
   /* ------------------ PUNTO 3: Escribe tu codigo desde aqui ------------------ */
@@ -106,10 +103,8 @@ en el archivo index.html con el id 'fila'.*/
     `;
   }
 
-recorrerListadoYRenderizarTarjetas();
+
   
-
-
 }
 
 function alternarColorTema() {
@@ -117,50 +112,17 @@ function alternarColorTema() {
   const btnTema = document.querySelector('#cambiar-tema');
   /* --------------------- PUNTO 4: Escribe tu codigo aqui --------------------- */
 
-  
-  btnTema.addEventListener("click", () => {
-
-    if (document.body.className != "dark") document.body.className=("dark")
-    else document.body.className = "";
-
-    console.log(document.body.className);
-
-    //REVISAR ESTA PARTE. FUNCIONA CON DOBLE CLICK 
-
-    
-  
-  });
-
-  
-
-
-
-
-  
-
+  const sitio = document.querySelector('#sitio')
+  sitio.classList.toggle('dark');
 
 }
 
-
-
-alternarColorTema();
-verMas();
-
-function verMas() {
-
-  const mostrarLorem = document.querySelector('#sobre-mi');
-
-  window.addEventListener("keydown", function(e) {
-    if (e.key == 'f'){ mostrarLorem.className = "";
-    }else{
-      mostrarLorem.className = "oculto";
-    }
-      
-
-    }
-  );
-
+document.addEventListener('keydown', event => {
+  if (event.key === 'f') {
+    const sobreMi = document.querySelector('#sobre-mi')
+    sobreMi.classList.remove('oculto');
   }
+})
 
 
 

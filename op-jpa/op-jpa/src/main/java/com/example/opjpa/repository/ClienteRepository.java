@@ -1,4 +1,4 @@
-package com.example.opjpa;
+package com.example.opjpa.repository;
 
 import com.example.opjpa.domain.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;

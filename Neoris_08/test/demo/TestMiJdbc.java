@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.List;
 
+import demo.connect.MiJdbc;
 import org.junit.jupiter.api.Test;
 
 public class TestMiJdbc

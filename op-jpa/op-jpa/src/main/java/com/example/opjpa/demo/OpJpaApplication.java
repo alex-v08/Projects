@@ -1,4 +1,5 @@
-package com.example.opjpa;
+package com.example.opjpa.demo;
+
 
 import com.example.opjpa.repository.ClienteRepository;
 import org.springframework.boot.SpringApplication;
