@@ -1,13 +1,14 @@
-package openbootcamp.obrestdata;
+package neoris.tienda.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ObRestDataApplication {
+public class TiendaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ObRestDataApplication.class, args);
+
+		SpringApplication.run(TiendaApplication.class, args);
 	}
 
 }
