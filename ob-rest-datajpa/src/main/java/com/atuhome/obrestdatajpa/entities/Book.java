@@ -1,6 +1,5 @@
-package com.atuhome.obrestdatajpa.model;
+package com.atuhome.obrestdatajpa.entities;
 import jakarta.persistence.*;
-import org.springframework.web.bind.annotation.GetMapping;
 
 import java.time.LocalDate;
 
