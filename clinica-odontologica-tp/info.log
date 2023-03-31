@@ -1,0 +1,4 @@
+2023-03-31 18:38:11 ERROR GloabalExceptionHandler:25 - could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_RHX8NJNXRSAV4UM2CJSOY0DLI_INDEX_2 ON PUBLIC.ODONTOLOGOS(MATRICULA) VALUES 3"; SQL statement:
+insert into odontologos (apellido, matricula, nombre, id) values (?, ?, ?, ?) [23505-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2023-03-31 18:39:02 ERROR GloabalExceptionHandler:25 - Request method 'POST' not supported
+2023-03-31 18:39:17 ERROR GloabalExceptionHandler:25 - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "2l"
