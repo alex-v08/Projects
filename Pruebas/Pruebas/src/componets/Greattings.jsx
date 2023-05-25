@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Greattings() {
+const Greattings =()=> {
   return (
     <div>Hello World</div>
   )
