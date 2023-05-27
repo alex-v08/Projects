@@ -1,0 +1,105 @@
+:root {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+
+body {
+  margin: 0;
+}
+
+hr {
+  width: 100%;
+  border-color: #888;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* Estilo personalizado del scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track (barra de desplazamiento) */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle (control deslizante) */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+/* Handle en hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Ocultar scrollbar por defecto */
+.scroll-container {
+  scrollbar-width: none; /* Para Firefox */
+  -ms-overflow-style: none; /* Para Internet Explorer y Edge */
+  overflow: -moz-scrollbars-none; /* Para Firefox */
+}
+
+/* Mostrar scrollbar solo cuando se hace hover en el contenedor */
+.scroll-container:hover {
+  scrollbar-width: auto; /* Para Firefox */
+  -ms-overflow-style: scrollbar; /* Para Internet Explorer y Edge */
+  overflow: auto; /* Para Firefox */
+}
+
+button {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+/*button disabled*/
+button[disabled] {
+  background-color: #222;
+  cursor: not-allowed;
+  color: #666;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 16px;
+  font-weight: bolder;
+  border-bottom: 1px solid #333;
+}
+
+header img {
+  width: 75px;
+}
+
+input, select {
+  background-color: #333;
+  color: #fff;
+}
+
+.light {
+  background-color: #666;
+  color: #0F0;
+}
+
+.light button {
+  background-color: #666;
+  color: #0F0;
+}
+
+.height-limited {
+  max-height: 300px;
+  overflow-y: auto;
+}

@@ -1,0 +1,514 @@
+[
+  {
+    "id": "3LB520EvI6M1XwBMTBQk",
+    "name": "Shovel Knight Dig",
+    "playedTime": 357,
+    "tags": ["Roguelike", "Platformer"],
+    "score": 7,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1416050/header.jpg"
+  },
+  {
+    "id": "8mcKqv1gjA4Kmq4Wqos2",
+    "name": "Haiku, the Robot",
+    "playedTime": 700,
+    "tags": ["Metroidvania"],
+    "score": 9,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1231880/header.jpg"
+  },
+  {
+    "id": "DHUZjUiCxUVUHDS3wRNK",
+    "name": "The Binding of Isaac: Rebirth",
+    "playedTime": 34481,
+    "tags": ["Roguelike"],
+    "score": 8,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/250900/header.jpg"
+  },
+  {
+    "id": "9kA8xzSoR0qnuUqgP0b7",
+    "name": "Inscryption",
+    "playedTime": 790,
+    "tags": ["Board", "Puzzles", "MuchoTexto", "Roguelike"],
+    "score": 9,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1092790/header.jpg"
+  },
+  {
+    "id": "rRWE9R2OxiPCC1qe8D7x",
+    "name": "Shantae and the Pirate's Curse",
+    "playedTime": 666,
+    "tags": ["Platformer", "Metroidvania"],
+    "score": 8,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/345820/header.jpg"
+  },
+  {
+    "id": "2XOu91uiBCdOiKY4umXm",
+    "name": "Enter the Gungeon",
+    "playedTime": 5991,
+    "tags": ["Roguelike"],
+    "score": 9,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/311690/header.jpg"
+  },
+  {
+    "id": "X2IGkfFH9VQgt93M4QBk",
+    "name": "It Takes Two",
+    "playedTime": 1930,
+    "tags": ["Platformer", "Cooperative", "Puzzles"],
+    "score": 8,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1426210/header.jpg"
+  },
+  {
+    "id": "9bdpgX80rhsDNjzZAB8B",
+    "name": "A Hat in Time",
+    "playedTime": 953,
+    "tags": ["Platformer", "Collectathon"],
+    "score": 7,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/253230/header.jpg"
+  },
+  {
+    "id": "8VCF4NMTWssfdLKjSK72",
+    "name": "Super Meat Boy Forever",
+    "playedTime": 1263,
+    "tags": ["Precision", "Platformer"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/581660/header.jpg"
+  },
+  {
+    "id": "tVTFWDTtz2Gf7sP11fRi",
+    "name": "Sockventure",
+    "playedTime": 271,
+    "tags": ["Precision", "Platformer"],
+    "score": 9,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1222340/header.jpg"
+  },
+  {
+    "id": "cFiyK69Oc06VwdO8lxv9",
+    "name": "Blitz Breaker",
+    "playedTime": 375,
+    "tags": ["Precision"],
+    "score": 7,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/416110/header.jpg"
+  },
+  {
+    "id": "dezl5UKjhZj6HKvxW00h",
+    "name": "SteamWorld Dig 2",
+    "playedTime": 746,
+    "tags": ["Metroidvania"],
+    "score": 7,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/571310/header.jpg"
+  },
+  {
+    "id": "VO1ao6EHWRKa1QK72ptT",
+    "name": "MagiCat",
+    "playedTime": 876,
+    "tags": ["Platformer"],
+    "score": 7,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/656970/header.jpg"
+  },
+  {
+    "id": "wwx8kMq5WcXD4bpRxMoE",
+    "name": "Unbound: Worlds Apart",
+    "playedTime": 413,
+    "tags": ["Platformer", "Puzzles"],
+    "score": 8,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/814680/header.jpg"
+  },
+  {
+    "id": "f99VbyIGCtyMyfKl896h",
+    "name": "Astalon: Tears of the Earth",
+    "playedTime": 1612,
+    "tags": ["Metroidvania", "Platformer"],
+    "score": 9,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1046400/header.jpg"
+  },
+  {
+    "id": "AW0Af10XZn88ef08HWo9",
+    "name": "Super Magbot",
+    "playedTime": 557,
+    "tags": ["Precision", "Platformer"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1205170/header.jpg"
+  },
+  {
+    "id": "rGeS5Hau0QPp5SqQka0J",
+    "name": "Kaze and the Wild Masks",
+    "playedTime": 570,
+    "tags": ["Platformer", "Collectathon"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/829280/header.jpg"
+  },
+  {
+    "id": "3gluEdnmJuEQPTP8r7GY",
+    "name": "Tametsi",
+    "playedTime": 4724,
+    "tags": ["Puzzles"],
+    "score": 7,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/709920/header.jpg"
+  },
+  {
+    "id": "1rW8vDQByK4sr8KlqZNv",
+    "name": "Sunblaze",
+    "playedTime": 444,
+    "tags": ["Precision", "Platformer"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1525660/header.jpg"
+  },
+  {
+    "id": "hETWJquyCQUEZNpQto22",
+    "name": "Hades",
+    "playedTime": 5339,
+    "tags": ["Roguelike", "Action"],
+    "score": 9,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1145360/header.jpg"
+  },
+  {
+    "id": "86lpdhHm7V50oZjrUXGa",
+    "name": "Aviary Attorney",
+    "playedTime": 952,
+    "tags": ["MuchoTexto"],
+    "score": 8,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/384630/header.jpg"
+  },
+  {
+    "id": "eObG8qSEgz1MuPPxG34X",
+    "name": "Bug Fables: The Everlasting Sapling",
+    "playedTime": 2777,
+    "tags": ["RPG", "TurnBased"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1082710/header.jpg"
+  },
+  {
+    "id": "7AEsqDxL8dZmYAhvGczm",
+    "name": "DYE",
+    "playedTime": 1130,
+    "tags": ["Precision", "Platformer"],
+    "score": 9,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/503550/header.jpg"
+  },
+  {
+    "id": "XYmsO1YCg8cLVeJVutlW",
+    "name": "Levelhead",
+    "playedTime": 1258,
+    "tags": ["Platformer"],
+    "score": 8,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/792710/header.jpg"
+  },
+  {
+    "id": "8EoylLic1Y8LeRU966RD",
+    "name": "Guacamelee! Super Turbo Championship Edition",
+    "playedTime": 453,
+    "tags": ["Metroidvania", "Platformer"],
+    "score": 7,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/275390/header.jpg"
+  },
+  {
+    "id": "ER1cHUy2CVAjeX7znOhk",
+    "name": "Iconoclasts",
+    "playedTime": 1180,
+    "tags": ["Metroidvania", "Platformer"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/393520/header.jpg"
+  },
+  {
+    "id": "FLe9JqVmOEOGBJ4KsARl",
+    "name": "Splasher",
+    "playedTime": 287,
+    "tags": ["Precision", "Platformer"],
+    "score": 9,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/446840/header.jpg"
+  },
+  {
+    "id": "tgkZuu0lzAAgc1moYHe2",
+    "name": "Hollow Knight",
+    "playedTime": 2471,
+    "tags": ["Metroidvania", "Platformer"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/367520/header.jpg"
+  },
+  {
+    "id": "GhpOQwVtcvieQi8Lqm3h",
+    "name": "Dandara: Trials of Fear Edition",
+    "playedTime": 473,
+    "tags": ["Metroidvania"],
+    "score": 7,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/612390/header.jpg"
+  },
+  {
+    "id": "kyzR6gMT9WorvGPdZWr2",
+    "name": "Celeste",
+    "playedTime": 2486,
+    "tags": ["Precision", "Platformer"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/504230/header.jpg"
+  },
+  {
+    "id": "h1g4Rp5Owm74D9zKUSMI",
+    "name": "Rayman Legends",
+    "playedTime": 1063,
+    "tags": ["Platformer", "Collectathon"],
+    "score": 8,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/242550/header.jpg"
+  },
+  {
+    "id": "kljtXHUaAsuqfSCp4vFj",
+    "name": "Rayman Origins",
+    "playedTime": 1004,
+    "tags": ["Collectathon", "Platformer"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/207490/header.jpg"
+  },
+  {
+    "id": "EzPr3caEFuoRwKyyLJFh",
+    "name": "Crash Bandicoot™ N. Sane Trilogy",
+    "playedTime": 1081,
+    "tags": ["Collectathon", "Platformer"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/731490/header.jpg"
+  },
+  {
+    "id": "aKJfFfvv0ZBKm4VijGgf",
+    "name": "Spyro™ Reignited Trilogy",
+    "playedTime": 2391,
+    "tags": ["Collectathon", "Platformer"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/996580/header.jpg"
+  },
+  {
+    "id": "jRUcbEr7e1ydjtaghzmi",
+    "name": "Shovel Knight: Treasure Trove",
+    "playedTime": 1940,
+    "tags": ["Platformer"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/250760/header.jpg"
+  },
+  {
+    "id": "t6OrNDM6zKbnDZkqsS3o",
+    "name": "GemCraft - Frostborn Wrath",
+    "playedTime": 11309,
+    "tags": ["TowerDefense"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1106530/header.jpg"
+  },
+  {
+    "id": "QjvgvAv4H9pOBpRg7mXa",
+    "name": "Eversion",
+    "playedTime": 145,
+    "tags": ["Horror", "Platformer"],
+    "score": 8,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/33680/header.jpg"
+  },
+  {
+    "id": "RraStTWyFvemtORcdpCH",
+    "name": "Phoenix Wright: Ace Attorney Trilogy",
+    "playedTime": 2752,
+    "tags": ["MuchoTexto"],
+    "score": 9,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/787480/header.jpg"
+  },
+  {
+    "id": "iFjOiNZ25Nb8EcFfchVc",
+    "name": "GemCraft - Chasing Shadows",
+    "playedTime": 16921,
+    "tags": ["TowerDefense"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/296490/header.jpg"
+  },
+  {
+    "id": "LsEvdlwHpeV35mP6r0Fq",
+    "name": "OneShot",
+    "playedTime": 663,
+    "tags": ["Puzzles", "MuchoTexto"],
+    "score": 9,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/420530/header.jpg"
+  },
+  {
+    "id": "ygjlKabY1GbDcWwh2tWy",
+    "name": "The Messenger",
+    "playedTime": 1265,
+    "tags": ["Metroidvania", "Platformer"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/764790/header.jpg"
+  },
+  {
+    "id": "FbhWaK4llzebapDjdExs",
+    "name": "FEZ",
+    "playedTime": 220,
+    "tags": ["Puzzles", "Platformer"],
+    "score": 8,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/224760/header.jpg"
+  },
+  {
+    "id": "ZVTE29abjBPKkjogHjhE",
+    "name": "Ys Origin",
+    "playedTime": 335,
+    "tags": ["RPG", "Action"],
+    "score": 9,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/207350/header.jpg"
+  },
+  {
+    "id": "YKgybAumPG5SpjaDMAh7",
+    "name": "Tetrobot and Co.",
+    "playedTime": 538,
+    "tags": ["Puzzles"],
+    "score": 7,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/235980/header.jpg"
+  },
+  {
+    "id": "akEUzUPIQDTOyMpqN0iS",
+    "name": "Circa Infinity",
+    "playedTime": 64,
+    "tags": ["Precision"],
+    "score": 7,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/390610/header.jpg"
+  },
+  {
+    "id": "4FOFIteJ5Q1Idr4qYpR5",
+    "name": "Cuphead",
+    "playedTime": 996,
+    "tags": ["Precision", "Action"],
+    "score": 9,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/268910/header.jpg"
+  },
+  {
+    "id": "Bh9kloq1D645BrO4CHnt",
+    "name": "The End Is Nigh",
+    "playedTime": 257,
+    "tags": ["Precision", "Platformer"],
+    "score": 7,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/583470/header.jpg"
+  },
+  {
+    "id": "BM3vLJL0HAmXc6pbDS9H",
+    "name": "Cave Story+",
+    "playedTime": 699,
+    "tags": ["Metroidvania", "Platformer"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/200900/header.jpg"
+  },
+  {
+    "id": "S2XWCKv5CVcSMoR11P1R",
+    "name": "Undertale",
+    "playedTime": 5471,
+    "tags": ["RPG", "MuchoTexto"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/391540/header.jpg"
+  },
+  {
+    "id": "aXTbV4fy2qWuD65yDXJa",
+    "name": "Castle Crashers",
+    "playedTime": 454,
+    "tags": ["Action"],
+    "score": 7,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/204360/header.jpg"
+  },
+  {
+    "id": "xvMf7vlbBX90nWzIr7WL",
+    "name": "BIT.TRIP Presents... Runner2: Future Legend of Rhythm Alien",
+    "playedTime": 1448,
+    "tags": ["Rythm"],
+    "score": 7,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/218060/header.jpg"
+  },
+  {
+    "id": "YJonvdCTJroOGSZJhu4O",
+    "name": "Axiom Verge",
+    "playedTime": 687,
+    "tags": ["Metroidvania"],
+    "score": 8,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/332200/header.jpg"
+  },
+  {
+    "id": "RduZgDUu3GIcJ8KWiQhd",
+    "name": "VVVVVV",
+    "playedTime": 133,
+    "tags": ["Platformer"],
+    "score": 7,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/70300/header.jpg"
+  },
+  {
+    "id": "40AKdI4vmYk1JUmRYwt4",
+    "name": "Super Meat Boy",
+    "playedTime": 2093,
+    "tags": ["Precision", "Platformer"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/40800/header.jpg"
+  },
+  {
+    "id": "DzJnBmn7rvrIZBw55Ey8",
+    "name": "Toki Tori",
+    "playedTime": 782,
+    "tags": ["Puzzles"],
+    "score": 8,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/38700/header.jpg"
+  },
+  {
+    "id": "DRRKGQp4Pe0kxtyvfDjY",
+    "name": "Sonic Mania",
+    "playedTime": 1801,
+    "tags": ["Platformer"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/584400/header.jpg"
+  },
+  {
+    "id": "r00cblYDliAdIjVzn7DR",
+    "name": "Nihilumbra",
+    "playedTime": 568,
+    "tags": ["Puzzles", "Platformer"],
+    "score": 7,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/252670/header.jpg"
+  },
+  {
+    "id": "k31pDIe3DFtUAfe3H2u2",
+    "name": "The Witness",
+    "playedTime": 1830,
+    "tags": ["Puzzles"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/210970/header.jpg"
+  },
+  {
+    "id": "1B3E9zXAfQuUdDTwwhJX",
+    "name": "LIMBO",
+    "playedTime": 206,
+    "tags": ["Horror", "Puzzles", "Platformer"],
+    "score": 7,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/48000/header.jpg"
+  },
+  {
+    "id": "May2KyzBGw8wygxrX6h1",
+    "name": "Toki Tori 2+",
+    "playedTime": 587,
+    "tags": ["Puzzles", "Platformer"],
+    "score": 8,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/201420/header.jpg"
+  },
+  {
+    "id": "WC5pgS05Ojn1w2SABa0e",
+    "name": "Portal 2",
+    "playedTime": 992,
+    "tags": ["Puzzles"],
+    "score": 10,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/620/header.jpg"
+  },
+  {
+    "id": "wnmhk68B7QWAyh3YKwBh",
+    "name": "Portal",
+    "playedTime": 388,
+    "tags": ["Puzzles"],
+    "score": 9,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/400/header.jpg"
+  },
+  {
+    "id": "oNT8QOpR8FVBe4xDr0ZL",
+    "name": "Antichamber",
+    "playedTime": 220,
+    "tags": ["Puzzles"],
+    "score": 7,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/219890/header.jpg"
+  },
+  {
+    "id": "CwN5f8bySy5zrDtuETN7",
+    "name": "Braid",
+    "playedTime": 0,
+    "tags": ["Puzzles", "Platformer"],
+    "score": 9,
+    "imgUrl": "https://steamcdn-a.akamaihd.net/steam/apps/26800/header.jpg"
+  }
+]
