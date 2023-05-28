@@ -1,3 +1,5 @@
+
+//esLint-disable react/prop-types
 import React from 'react'
 
 const Listaitems = ({items}) => {
@@ -13,6 +15,7 @@ const Listaitems = ({items}) => {
 
         }}>
             <ul>
+               
                 {items.map((item) => (
                     <li style={{
                         listStyle: 'none'
