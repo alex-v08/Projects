@@ -1,33 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+
 import './App.css'
+import { Todo } from './components/Todo'
+/* import Listaitems from './components/Listaitems' */
+/* import Listaitems from './components/Listaitems'; */
 
 function App() {
-  const [count, setCount] = useState(0)
+/*   const lista=[{id:1, nombre:'Juan', apellido:'Perez', edad: 25},
+  {id:2, nombre:'Maria', apellido:'Gomez', edad: 30},
+  {id:3, nombre:'Pedro', apellido:'Garcia', edad: 35}]; */
+  
+
+
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    {/* <Listaitems items={lista}/> */}
+    <Todo/>
+    <Todo/>
+    <Todo/>
+    <Todo/>
+     
     </>
   )
 }
