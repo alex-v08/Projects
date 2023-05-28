@@ -1,4 +1,4 @@
-
+/* 
 //esLint-disable react/prop-types
 import React from 'react'
 
@@ -28,4 +28,4 @@ const Listaitems = ({items}) => {
 
 
 
-export default Listaitems
+export default Listaitems */
