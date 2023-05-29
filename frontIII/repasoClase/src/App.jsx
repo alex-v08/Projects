@@ -1,33 +1,30 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import Tarjeta from './Componets/Tarjeta'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [name, setName] = useState('')
+  const [date, setDate] = useState(null)
+  const [color, setColor] = useState('transparent')
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <label>Ingrese el nombre del Cumpleañoero </label>
+    <input type="text" onChange={(e) => setName(e.target.value)}/>
+      <Tarjeta name={name} date={date} setBackground={setColor}/>
+      <label htmlFor="name">Ingrese el nombre del Cumpleañero</label>
+      <input type="date" id="name" onChange={(e) => setName(e.target.value)} />
+      <select onChange={(e)=>setColor(e.target.value)}>
+        <option value="transparent">transparent</option>
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="green">green</option>
+        <option value="yellow">yellow</option>
+
+
+      </select>
+      
     </>
   )
 }
