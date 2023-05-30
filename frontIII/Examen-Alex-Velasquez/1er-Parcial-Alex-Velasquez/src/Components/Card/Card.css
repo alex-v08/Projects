@@ -1,0 +1,27 @@
+/* Formato css para el component Form que se encuentra en la ruta src/Components/Card/Card.js */
+/* el formulario cuenta con Nombre, Apellido, Email, Telefono, Fecha de nacimiento, Direccion, Ciudad, Pais, Codigo postal, Estado, Contraseña, Confirmar contraseña, Boton de enviar y Boton de cancelar */
+
+
+/* Se importa el modulo css */
+
+
+/* la card debe tener un ancho y alto del tamaño de un tarjeta con sombras de la pantalla
+ */
+.card {
+
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    overflow: hidden;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
