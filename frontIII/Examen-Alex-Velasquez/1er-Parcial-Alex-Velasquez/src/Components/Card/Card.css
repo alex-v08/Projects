@@ -9,19 +9,24 @@
  */
 .card {
 
-    width: 400px;
-    height: 600px;
+    width: 200px;
+    height: 500px;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     overflow: hidden;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  
 
 }
+
+.tarjeta{
+    width: 600px;
+    height: 400px;
+    background-color: transparent;
+    border: 2px solid #fff;
+  }

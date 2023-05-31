@@ -5,14 +5,7 @@ import './Form.css'
 const Form = () => {
   return (
 
-    //Crear Formulario React, con Nombre, Apellido, Email, Password, Confirmar Password, Boton de Registro
-    //Validar que todos los campos sean obligatorios
 
-    //Crear un componente Form.jsx
-
-    //Crear un componente Card.jsx
-
-    //Crear un componente Button.jsx
 <form className="form">
     <div className="form-group etiqueta" >
         <label htmlFor="name">Nombre</label>
@@ -35,11 +28,6 @@ const Form = () => {
         <input type="password" className="form-control" id="password2" placeholder="Confirmar Contraseña" />
     </div>
     <button type="submit" className="boton">Registrarse</button>
-
-
-
-
-
 
 </form>
   )
