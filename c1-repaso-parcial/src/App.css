@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.tarjeta{
+  width: 600px;
+  height: 400px;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+
