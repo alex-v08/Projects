@@ -1,0 +1,14 @@
+﻿# Archivos Base: 
+los archivos base se encuentran disponibles en Github en la ruta https://github.com/yacafx/in-react-esencial.
+
+En este repositorio los archivos se encuentran divividos en branches o ramas donde podrás ubicar fácilmente el correspondiente a cada capítulo. 
+
+Podrás usar el repositorio clonándolo con el siguiente comando
+
+git clone git@github.com:yacafx/in-react-esencial.git
+
+O descargando la versión empaquetada en un archivo zip en la ruta https://github.com/yacafx/in-react-esencial/archive/master.zip 
+
+En cada branch encontrarás dos carpetas, inicio y fin, donde encontrarás el código necesario para que sigas los videos. Es muy importante que en cada carpeta ejecutes el comando npm install antes de usar cada carpeta de manera individual.
+
+Si llevas tu proyecto desde el inicio, no será necesario que ejecutes dicho comando en cada capítulo.

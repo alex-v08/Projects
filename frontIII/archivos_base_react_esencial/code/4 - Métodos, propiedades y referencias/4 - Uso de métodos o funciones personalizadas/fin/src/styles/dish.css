@@ -1,0 +1,15 @@
+h4 {
+  color: red;
+}
+
+.dish {
+  width: 120px;
+  height: 200px;
+  border-radius: 5px;
+  background-color: cadetblue;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+}
