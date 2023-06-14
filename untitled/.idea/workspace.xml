@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33300a6f-3b25-442f-9fdb-95ad4584eee5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../TestIntelij/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestIntelij/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestIntelij/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestIntelij/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestIntelij/TestIntelij.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra1/Pipeline/untitled/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra1/Pipeline/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../infra1/Pipeline/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontIII/TestAV/1er-Parcial-Alex-Velasquez/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontIII/TestAV/1er-Parcial-Alex-Velasquez/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontIII/TestAV/1er-Parcial-Alex-Velasquez/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontIII/TestAV/1er-Parcial-Alex-Velasquez/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontIII/TestAV/1er-Parcial-Alex-Velasquez/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontIII/TestAV/1er-Parcial-Alex-Velasquez/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontIII/TestAV/1er-Parcial-Alex-Velasquez/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontIII/TestAV/1er-Parcial-Alex-Velasquez/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontIII/TestAV/1er-Parcial-Alex-Velasquez/src/Components/Card/Card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontIII/TestAV/1er-Parcial-Alex-Velasquez/src/Components/Card/Card.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontIII/TestAV/1er-Parcial-Alex-Velasquez/src/Components/Form/Form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontIII/TestAV/1er-Parcial-Alex-Velasquez/src/Components/Form/Form.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontIII/TestAV/1er-Parcial-Alex-Velasquez/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontIII/TestAV/1er-Parcial-Alex-Velasquez/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontIII/TestAV/1er-Parcial-Alex-Velasquez/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontIII/TestAV/1er-Parcial-Alex-Velasquez/vite.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RCfPWW76zadEKxAkfdpZPFmJm2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/alexv/Documents/NEORIS/TurnosRotativosTempl(1)/TurnosRotativosTempl/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33300a6f-3b25-442f-9fdb-95ad4584eee5" name="Changes" comment="" />
+      <created>1686758961725</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686758961725</updated>
+      <workItem from="1686758962728" duration="215000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db883895-105c-4ae6-9f23-1c21f1f0e149" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../frontIII/TestAV/1er-Parcial-Alex-Velasquez/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontIII/TestAV/1er-Parcial-Alex-Velasquez/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontIII/TestAV/1er-Parcial-Alex-Velasquez/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontIII/TestAV/1er-Parcial-Alex-Velasquez/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontIII/TestAV/1er-Parcial-Alex-Velasquez/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontIII/TestAV/1er-Parcial-Alex-Velasquez/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontIII/TestAV/1er-Parcial-Alex-Velasquez/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontIII/TestAV/1er-Parcial-Alex-Velasquez/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontIII/TestAV/1er-Parcial-Alex-Velasquez/src/Components/Card/Card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontIII/TestAV/1er-Parcial-Alex-Velasquez/src/Components/Card/Card.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontIII/TestAV/1er-Parcial-Alex-Velasquez/src/Components/Form/Form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontIII/TestAV/1er-Parcial-Alex-Velasquez/src/Components/Form/Form.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontIII/TestAV/1er-Parcial-Alex-Velasquez/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontIII/TestAV/1er-Parcial-Alex-Velasquez/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontIII/TestAV/1er-Parcial-Alex-Velasquez/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontIII/TestAV/1er-Parcial-Alex-Velasquez/vite.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2QengNKmn3UHSrGfyPiGCvSZA0G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db883895-105c-4ae6-9f23-1c21f1f0e149" name="Changes" comment="" />
+      <created>1685723029385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685723029385</updated>
+      <workItem from="1685723030860" duration="2000" />
+    </task>
+    <servers />
+  </component>
+</project>
