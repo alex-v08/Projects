@@ -1,0 +1,22 @@
+.app{
+  width: 100vmax;
+  display: flex;
+  flex-direction: column;
+}
+.navbar{
+  background-color: rgb(50, 127, 127);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.links{
+  display: flex;
+
+}
+.link{
+  margin-left: 10px;
+}
+.search{
+  height: 25px;
+}
