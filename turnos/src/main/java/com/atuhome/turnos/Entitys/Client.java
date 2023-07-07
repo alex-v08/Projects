@@ -2,17 +2,24 @@
 package com.atuhome.turnos.Entitys;
 
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
-
+@Entity
+@Table(name = "client")
 public class Client {
 
 
-    private Address mAddress;
+    private Address cAddress;
 
-    private Company mCompany;
+    private Company cCompany;
 
-    private String mEmail;
+    private String cEmail;
 
+    @Id
+    @Column(name = "id")
     private Long mId;
 
     private String mName;
@@ -24,36 +31,33 @@ public class Client {
     private String mWebsite;
 
     public Address getAddress() {
-        return mAddress;
+        return cAddress;
     }
 
     public void setAddress(Address address) {
-        mAddress = address;
+        cAddress = address;
     }
 
     public Company getCompany() {
-        return mCompany;
+        return cCompany;
     }
 
     public void setCompany(Company company) {
-        mCompany = company;
+        cCompany = company;
     }
 
     public String getEmail() {
-        return mEmail;
+        return cEmail;
     }
 
     public void setEmail(String email) {
-        mEmail = email;
+        cEmail = email;
     }
 
     public Long getId() {
         return mId;
     }
 
-    public void setId(Long id) {
-        mId = id;
-    }
 
     public String getName() {
         return mName;
@@ -86,5 +90,5 @@ public class Client {
     public void setWebsite(String website) {
         mWebsite = website;
     }
-
 }
+

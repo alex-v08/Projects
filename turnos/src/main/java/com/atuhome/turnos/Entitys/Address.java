@@ -2,9 +2,19 @@
 package com.atuhome.turnos.Entitys;
 
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
+@Entity
+@Table(name = "address")
 
 public class Address {
+
+@Id
+@GeneratedValue(strategy = jakarta.persistence.GenerationType.AUTO)
+    private Long aId;
 
 
     private String mCity;
@@ -19,6 +29,19 @@ public class Address {
 
     public String getCity() {
         return mCity;
+    }
+
+    public Address() {
+    }
+
+
+
+    public Address(String mCity, Geo mGeo, String mStreet, String mSuite, String mZipcode) {
+        this.mCity = mCity;
+        this.mGeo = mGeo;
+        this.mStreet = mStreet;
+        this.mSuite = mSuite;
+        this.mZipcode = mZipcode;
     }
 
     public void setCity(String city) {
@@ -57,4 +80,7 @@ public class Address {
         mZipcode = zipcode;
     }
 
+    public Long getaId() {
+        return aId;
+    }
 }

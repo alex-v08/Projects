@@ -2,11 +2,31 @@
 package com.atuhome.turnos.Entitys;
 
 
+import jakarta.persistence.*;
 
-
+@Entity
+@Table(name = "company")
 
 
 public class Company {
+
+    @Id
+    @GeneratedValue(strategy= GenerationType.AUTO)
+    private Long cId;
+
+    public Long getcId() {
+        return cId;
+    }
+
+    public Company(String mBs, String mCatchPhrase, String mName) {
+        this.mBs = mBs;
+        this.mCatchPhrase = mCatchPhrase;
+        this.mName = mName;
+    }
+
+    public Company() {
+    }
+
 
 
     private String mBs;
