@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TechhubApplication{
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(TechhubApplication.class, args);
 	}
 

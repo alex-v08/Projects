@@ -42,7 +42,10 @@ public class AppointmentController {
     @GetMapping("/appointments/{id}")
     public ResponseEntity<Appointment> getAppointmentById(@PathVariable("id") long id){
         Optional<Appointment> appointment = appointmentRepository.findById(id);
-
+/** TODO
+         * Implement this function, which acts as the POST /api/appointment endpoint.
+         * Make
+ * **/
         if (appointment.isPresent()){
             return new ResponseEntity<>(appointment.get(),HttpStatus.OK);
         }else {
@@ -56,6 +59,11 @@ public class AppointmentController {
          * Implement this function, which acts as the POST /api/appointment endpoint.
          * Make sure to check out the whole project. Specially the Appointment.java class
          */
+        appointmentRepository.save(appointment);
+
+
+
+
         return new ResponseEntity<>(HttpStatus.I_AM_A_TEAPOT);
     }
 
