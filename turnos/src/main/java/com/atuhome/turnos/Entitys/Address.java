@@ -2,24 +2,27 @@
 package com.atuhome.turnos.Entitys;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-
+import jakarta.persistence.*;
+import com.atuhome.turnos.Entitys.Geo;
 @Entity
 @Table(name = "address")
 
 public class Address {
 
 @Id
-@GeneratedValue(strategy = jakarta.persistence.GenerationType.AUTO)
+@GeneratedValue(strategy = GenerationType.AUTO)
     private Long aId;
 
 
+
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "geo_id")
+    private Geo mGeo;
+
     private String mCity;
 
-    private Geo mGeo;
+
 
     private String mStreet;
 

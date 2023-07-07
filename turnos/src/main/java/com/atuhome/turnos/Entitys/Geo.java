@@ -1,8 +1,16 @@
 package com.atuhome.turnos.Entitys;
 
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "geo")
+
+
 public class Geo {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long gId;
     private String mLat;
 

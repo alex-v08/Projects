@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: dbturnos
+      MYSQL_USER: dbcompany
+      MYSQL_PASSWORD: dbcompanypassword
+    ports:
+        - 3306:3306
+    volumes:
+      - ./data:/var/lib/mysql

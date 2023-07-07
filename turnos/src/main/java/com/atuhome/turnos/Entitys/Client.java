@@ -2,25 +2,29 @@
 package com.atuhome.turnos.Entitys;
 
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "client")
 public class Client {
 
+    @Id
+    @Column(name = "id")
+    private Long mId;
 
+
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "client_id")
     private Address cAddress;
 
+
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "company_id")
     private Company cCompany;
 
     private String cEmail;
 
-    @Id
-    @Column(name = "id")
-    private Long mId;
+
 
     private String mName;
 
