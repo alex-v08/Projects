@@ -47,4 +47,9 @@ public class Geo {
     }
 
 
+    public Long getId() {
+
+        return gId;
+
+    }
 }

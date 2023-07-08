@@ -14,7 +14,10 @@ public class Client {
 
 
     @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "client_id")
+    @JoinTable(
+            name = "client_id",
+            joinColumns = @JoinColumn(name = "client_id"),
+            inverseJoinColumns = @JoinColumn(name = "address_id"))
     private Address cAddress;
 
 
